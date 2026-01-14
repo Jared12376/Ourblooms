@@ -1,0 +1,100 @@
+.about_main {
+    text-align: start;
+}
+
+
+.right_container {
+    width: 610px
+}
+
+
+.about_container {
+    display: flex;
+    gap: 200px;
+}
+
+
+.author_information {
+    display: flex;
+    gap: 50px;
+   
+}
+
+
+.honor_container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 80px 0
+}
+
+
+.honor_flowers {
+    display: flex;
+    gap: 30px
+}
+
+
+.about_text_container {
+    width: 600px;
+    height: 410px;
+}
+
+
+.image_breaker {
+    margin: 50px 0 50px 0;
+}
+
+
+.about_text_container2 {
+    width: 600px;
+    height: 210px;
+    margin-bottom: 200px;
+}
+
+
+@media screen and (max-width: 899px) {
+    .about_container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .author_information {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .about_main {
+        font-size: 1px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .honor_flowers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .honor_container {
+        align-items: center;
+    }
+
+
+    .honor_container_text {
+        text-align: center;
+        width: 500px;
+    }
+
+
+    .center_text {
+        text-align: center;
+    }
+
+
+    picture {
+        display: flex;
+        justify-content: center
+    }
+}

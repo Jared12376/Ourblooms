@@ -3,7 +3,7 @@ import Services from '../components/Services'
 import WorkWithUs from '../components/WorkWithUs'
 
 
-import g1 from '../assets/Gallery/Image.png'
+import g1 from '../assets/Gallery/image.png'
 import g2 from '../assets/Gallery/Image-1.png'
 import g3 from '../assets/Gallery/Image-2.png'
 import g4 from '../assets/Gallery/Image-3.png'
